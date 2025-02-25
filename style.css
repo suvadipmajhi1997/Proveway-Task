@@ -1,0 +1,177 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 320px;
+}
+
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.line {
+    width: 63px; 
+    height: 1px;
+    margin: 5px;
+    background-color:  #ddd;
+}
+
+h2 {
+    text-align: center;
+    color: #ff6584;
+}
+.offer-box {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 20px 0;
+    border-radius: 5px;
+    background: #fff;
+}
+/* style Radio button */
+input[type="radio"] {
+    appearance: none; /* Removes default styling */
+    width: 16px;
+    height: 16px;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    position: relative;
+    cursor: pointer;
+}
+
+input[type="radio"]:checked {
+    border-color: #ff6584;
+}
+
+input[type="radio"]:checked::before {
+    content: "";
+    width: 10px;
+    height: 10px;
+    background-color: #ff6584;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* style for most popular  */
+.popular {
+    border: 2px solid #ff6584;
+    position: relative;
+}
+.popular::before {
+    content: "MOST POPULAR";
+    position: absolute;
+    top: -10px;
+    right: 10px;
+    background: #ff6584;
+    color: white;
+    padding: 3px 5px;
+    font-size: 12px;
+    border-radius: 3px;
+}
+
+/* size and colour */
+.option {
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+.discount {
+    background: #ff6584;
+    color: white;
+    padding: 2px 5px;
+    border-radius: 3px;
+    font-size: 12px;
+}
+.price-sec{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 35px;
+}
+.price {
+    font-weight: bold;
+}
+.original-price {
+    text-decoration: line-through;
+    color: #aaa;
+    font-size: 12px;
+}
+
+
+.selection {
+    margin-top: 10px;
+    margin-left: 30px;
+    display: none;
+}
+.selection {
+margin-top: 0px;
+display: none;
+padding: 10px;
+background: #f9f9f9;
+border-radius: 5px;
+}
+
+.selection-info{
+    display: flex;
+    margin-left: 25px;
+    gap: 45px;
+}
+
+.selection select {
+padding-right: 20px;
+border: 1px solid #ddd;
+border-radius: 5px;
+font-size: 14px;
+background: white;
+cursor: pointer;
+}
+
+.selection select:focus {
+border-color: #ff6584;
+outline: none;
+}
+
+.selection select:hover {
+border-color: #ff6584;
+}
+
+select {
+    margin: 5px;
+    padding: 5px;
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.free-delivery {
+    color: #ff6584;
+    font-weight:500;
+    font-size:medium;
+}
+.add-to-cart {
+    background: #ff6584;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.add-to-cart:hover {
+    background: #e64e6c;
+}

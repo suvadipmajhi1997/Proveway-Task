@@ -11,7 +11,7 @@ body {
     padding: 20px;
     /* border-radius: 10px; */
     /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
-    width: 320px;
+    width: 400px;
 }
 
 .heading{
@@ -23,7 +23,7 @@ body {
 }
 
 .line {
-    width: 63px; 
+    width: 100px; 
     height: 1px;
     margin: 5px;
     background-color:  #ddd;
@@ -40,6 +40,27 @@ h2 {
     margin-bottom: 20px;
     /* border-radius: 5px; */
     background: white;
+}
+.offer-box1{
+    display: flex; 
+    flex-direction: column;
+    line-height: 1; 
+    justify-content: start; 
+    margin-left: 20px;
+    font-weight: bold;
+}
+.offerBox{
+    display: flex; 
+    line-height: 1; 
+    justify-content: start; 
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+.unit-offer{
+    margin: 0; 
+    padding: 5px; 
+    font-weight: bold;
 }
 /* style Radio button */
 input[type="radio"] {
@@ -88,21 +109,24 @@ input[type="radio"]:checked::before {
 /* size and colour */
 .option {
     display: flex;
-    justify-content:space-evenly;
+    /* justify-content:space-around; */
     align-items: center;
+    
 }
 .discount {
     background: #ff6584;
     color: white;
     padding: 2px 5px;
-    border-radius: 3px;
+    margin-left: 10px;
     font-size: 12px;
+    font-weight: 500;
 }
 .price-sec{
     display: flex;
     flex-direction: column;
+    justify-content:end;
     align-items: center;
-    margin-left: 35px;
+    margin-left: 110px;
 }
 .price {
     font-weight: bold;
@@ -116,7 +140,7 @@ input[type="radio"]:checked::before {
 
 .selection {
     margin-top: 10px;
-    margin-left: 30px;
+    margin-left: 45px;
     display: none;
 }
 .selection {
@@ -125,12 +149,13 @@ display: none;
 padding: 10px;
 background: rgb(247, 242, 243);
 border-radius: 5px;
+
 }
 
 .selection-info{
     display: flex;
     margin-left: 25px;
-    gap: 45px;
+    gap: 70px;
 }
 
 .selection select {
@@ -154,6 +179,16 @@ border-color: #ff6584;
 select {
     margin: 5px;
     padding: 5px;
+}
+
+.size{
+    width: 85px; 
+    margin-top: 0;
+}
+
+.colour{
+    width: 85px; 
+    margin-top: 0;
 }
 .footer {
     display: flex;

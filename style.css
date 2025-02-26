@@ -1,6 +1,5 @@
 body {
     font-family: Arial, sans-serif;
-    /* background-color: #f8f8f8; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -58,8 +57,9 @@ h2 {
 }
 
 .unit-offer{
-    margin: 0; 
-    padding: 5px; 
+    display: flex; 
+    line-height: 1; 
+    justify-content: start; 
     font-weight: bold;
 }
 /* style Radio button */

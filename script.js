@@ -14,6 +14,7 @@ function updateSelection() {
             selection.style.display = "block";
         } else {
             box.style.border = "1px solid #ddd";
+            box.style.background="white";
             selection.style.display = "none";
         }
     });

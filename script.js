@@ -10,7 +10,7 @@ function updateSelection() {
         if (radio.checked) {
             totalElement.textContent = `Total: $${radio.value}.00 USD`;
             box.style.border = "2px solid #ff6584";
-            box.style.background="#f9f9f9";
+            box.style.background="rgb(247, 242, 243)";
             selection.style.display = "block";
         } else {
             box.style.border = "1px solid #ddd";

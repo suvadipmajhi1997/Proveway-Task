@@ -18,6 +18,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0;
+    padding: 0;
 }
 
 .line {
@@ -32,9 +34,10 @@ h2 {
     color: #ff6584;
 }
 .offer-box {
+    margin-top: 0;
     border: 1px solid #ddd;
     padding: 10px;
-    margin: 20px 0;
+    margin-bottom: 20px;
     /* border-radius: 5px; */
     background: white;
 }
